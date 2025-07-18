@@ -100,3 +100,11 @@ nav ul li {
   transform: translateY(+2px); /* Slight lift effect */
   color: white;
 }
+
+/* Second Section */
+
+.secondSection {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
