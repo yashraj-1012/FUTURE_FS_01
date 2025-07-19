@@ -30,11 +30,8 @@
           >
             Yashraj Maddi
           </div>
-          <div
-            style="font-size: 2rem; color: rgb(125, 125, 125); font-weight: 500"
-          >
-            Mobile Application Developer
-          </div>
+          <span id="element"></span>
+
           <div class="buttons">
             <button class="cv">Download CV</button>
             <button class="contact">Contact Info</button>
@@ -48,9 +45,43 @@
           />
         </div>
       </section>
-      <section class="secondSection">
-        <div>About me</div>
+      <
+      <section class="secondSection" id="about">
+        <div class="abt title">About Me</div>
+
+        <div class="aboutContainer">
+          <div class="leftSection1">
+            <img src="yash.jpg" alt="Yashraj Maddi" />
+          </div>
+
+          <div class="rightSection1">
+            <p>
+              I'm <strong>Yashraj Maddi</strong>, a passionate
+              <strong>Mobile App Developer</strong> skilled in Flutter,
+              Firebase, and Java. Currently pursuing my B.Tech in Computer
+              Science, I enjoy creating clean, scalable, and innovative mobile
+              applications. I believe in turning ideas into impactful digital
+              solutions through code and design.
+            </p>
+            <ul>
+              <li>🚀 Flutter & Dart</li>
+              <li>🔥 Firebase Realtime DB & Auth</li>
+              <li>🎨 UI/UX Implementation</li>
+              <li>🧠 Java, Node.js</li>
+              <li>🔗 REST APIs, Git, GitHub</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Mobile Application Developer"],
+        typeSpeed: 40,
+        showCursor: false,
+      });
+    </script>
   </body>
 </html>
