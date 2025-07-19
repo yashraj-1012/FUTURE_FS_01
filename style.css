@@ -18,6 +18,8 @@ nav {
   display: flex;
   height: 100px;
   background-color: rgb(65, 65, 65);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .left {
@@ -129,13 +131,18 @@ nav ul li a:hover {
 
 .secondSection {
   padding: 8%;
-  padding-top: 0%;
+  padding-top: 4.5%;
   background-color: #f4f4f4;
+}
+
+.section_text_p1 {
+  text-align: center;
+  color: rgb(85, 85, 85);
 }
 
 .abt.title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
   color: #333;
@@ -171,4 +178,30 @@ nav ul li a:hover {
 
 .rightSection1 li {
   margin-bottom: 0.5rem;
+}
+
+/*Third Section*/
+
+.thirdSection {
+  padding: 8%;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.section3_text_p1 {
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+.skillstitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333;
 }
