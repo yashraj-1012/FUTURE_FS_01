@@ -17,7 +17,7 @@ nav {
   align-items: center;
   display: flex;
   height: 100px;
-  background-color: gray;
+  background-color: rgb(65, 65, 65);
 }
 
 .left {
@@ -88,8 +88,8 @@ nav ul li a:hover {
 }
 
 .cv {
-  background-color: rgb(65, 65, 65);
-  color: white;
+  background-color: white;
+  color: rgb(65, 65, 65);
   padding: 0.8rem 1.5rem;
   font-size: 1rem;
   border: none;
@@ -97,13 +97,13 @@ nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.3s ease;
+  border-color: rgb(65, 65, 65);
 }
 .cv:hover {
-  background-color: rgb(255, 255, 255); /* Slightly darker on hover */
+  background-color: rgb(65, 65, 65); /* Slightly darker on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-  transform: translateY(+2px);
-  color: rgb(65, 65, 65);
-  font-weight: 500;
+  transform: translateY(+2px); /* Slight lift effect */
+  color: white;
 }
 
 .contact {
