@@ -276,3 +276,39 @@ nav ul li a:hover {
   padding-top: 4.5%;
   background-color: #f4f4f4;
 }
+
+.email-icon {
+  padding: 3px;
+  padding-left: 5%;
+}
+
+.contact-details-container {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  height: 3rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 1% 8% 1% 8%;
+}
+
+.mail-container .mail {
+  padding-top: 8px;
+  display: inline-block;
+  color: black;
+  padding-left: 0%;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.LinkedIn-container .linkedin-link {
+  padding-top: 8px;
+  display: inline-block;
+  color: black;
+  padding-left: 5%;
+  font-size: larger;
+  text-decoration: none;
+}

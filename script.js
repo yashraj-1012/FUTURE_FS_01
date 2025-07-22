@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", function () {
   // Get all nav links with hashes
   const navLinks = document.querySelectorAll('nav ul li a[href^="#"]');
@@ -22,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-document.getElementById("downloadCV").addEventListener("click", function () {
-  const link = document.createElement("a");
-  link.href = "assets/Resume_Yashraj.pdf";
-  link.download = "Resume_Yashraj.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
+// document.getElementById("downloadCV").addEventListener("click", function () {
+//   const link = document.createElement("a");
+//   link.href = "assets/Resume_Yashraj.pdf";
+//   link.download = "Resume_Yashraj.pdf";
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// });
