@@ -16,6 +16,7 @@
         <ul>
           <li><a href="#home" style="color: white">Home</a></li>
           <li><a href="#about" style="color: white">About</a></li>
+          <li><a href="#skills" style="color: white">Skills</a></li>
           <li><a href="#projects" style="color: white">Projects</a></li>
           <li><a href="#contact" style="color: white">Contact</a></li>
         </ul>
@@ -33,12 +34,9 @@
           <span id="element"></span>
 
           <div class="buttons">
-            <button class="cv">Download CV</button>
-            <button
-              class="contact"
-              onclick="location.href='https://github.com/'"
-            >
-              Visit GitHub
+            <button class="cv" id="downloadCV">Download CV</button>
+            <button class="contact" onclick="location.href='#contact'">
+              Contact Me
             </button>
           </div>
           <div id="socials-container">
@@ -50,11 +48,10 @@
                 onclick="location.href='https://linkedin.com/'"
               />
               <img
-                src="./assets/leetcode.png"
+                src="./assets/github.png"
                 alt="My LinkedIn profile"
                 class="icon"
-                style="border-radius: 50%"
-                onclick="location.href='https://leetcode.com/'"
+                onclick="location.href='https://GitHub.com/'"
               />
             </div>
           </div>
@@ -142,6 +139,14 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="forthSection" id="projects">
+        <p class="section3_text_p1">My</p>
+        <div class="skillstitle">Projects</div>
+      </section>
+      <section class="fifthSection" id="contact">
+        <p class="section3_text_p1">Get in Touch</p>
+        <div class="skillstitle">Contact Me</div>
       </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
