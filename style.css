@@ -79,10 +79,6 @@ nav ul li a:hover {
   width: 50%;
 }
 
-.rightSection img {
-  width: 30%;
-}
-
 /*Button UI*/
 
 .buttons {
@@ -125,6 +121,15 @@ nav ul li a:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
   transform: translateY(+2px); /* Slight lift effect */
   color: white;
+}
+
+/*Social Links*/
+
+.icon {
+  width: 10%;
+  height: 10%;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /* Second Section */
