@@ -294,21 +294,22 @@ nav ul li a:hover {
   margin: 2rem auto;
   padding: 1% 8% 1% 8%;
 }
-
 .mail-container .mail {
-  padding-top: 8px;
   display: inline-block;
   color: black;
-  padding-left: 0%;
   font-size: larger;
   text-decoration: none;
+  margin-left: 8px; /* Better than padding-left */
+  margin-top: 8px;
 }
 
 .LinkedIn-container .linkedin-link {
-  padding-top: 8px;
   display: inline-block;
   color: black;
-  padding-left: 5%;
   font-size: larger;
   text-decoration: none;
+  margin-left: 8px;
+  margin-top: 8px;
 }
+
+/**/
