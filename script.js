@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("downloadCV").addEventListener("click", function () {
     const link = document.createElement("a");
     link.href = "assets/Resume_Yashraj.pdf";
-    link.download = "Yashraj_Resume.pdf";
+    link.download = "Yashrajco_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
